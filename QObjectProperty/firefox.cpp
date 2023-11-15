@@ -1,0 +1,16 @@
+#include "firefox.h"
+#include <QDebug>
+
+Firefox::Firefox(QObject *parent)
+    : QObject{parent}
+{
+
+}
+
+void Firefox::browse(const QString &phrase)
+{
+    qDebug() << "\nDisplaying results fro " << phrase
+             << "\nResult 1"
+             << "\nResult 2"
+             << "\nResult 3";
+}
