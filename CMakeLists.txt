@@ -1,0 +1,17 @@
+# optional 
+# set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+# set(CMAKE_CXX_COMPILER_LAUNCHER ccache)
+
+add_subdirectory(CustomQmlItem)
+add_subdirectory(ObjectTreeParentChildRelation)
+add_subdirectory(PositionersAndLayouts)
+add_subdirectory(QmlBasics)
+add_subdirectory(QmlCppIntegration)
+add_subdirectory(QObjectProperty)
+add_subdirectory(QtBasics)
+add_subdirectory(QtModelViewController)
+add_subdirectory(QtQuickQmlIntroduction)
+add_subdirectory(QtResourceSystem)
+add_subdirectory(QtRestApiClient)
+add_subdirectory(RegisterCppInQml)
+add_subdirectory(SignalsAndSlots)
