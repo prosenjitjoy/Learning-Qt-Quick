@@ -3,6 +3,7 @@
 #include "firefox.h"
 #include "internetexplorer.h"
 #include <QVariant>
+#include <QDebug>
 
 
 int main(int argc, char *argv[])
