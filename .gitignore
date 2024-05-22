@@ -1,0 +1,9 @@
+.cache
+build
+
+# compile commands
+compile_commands.json
+
+# cmake related caches
+CMakeFiles
+CMakeCache.txt
