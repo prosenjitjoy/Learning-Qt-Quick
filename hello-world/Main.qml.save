@@ -1,0 +1,13 @@
+import QtQuick 2
+
+Item {
+    width: 640
+    height: 480
+    visible: true
+    title: "Hello World"
+
+    Text {
+        anchors.centerIn: parent
+        text: "Hello World!"
+    }
+}
